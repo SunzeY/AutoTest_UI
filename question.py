@@ -29,6 +29,9 @@ class ChoiceQuestion(Question):
         else:
             return False
 
+    def answer(self):
+        return self.correct_answer
+
 
 class JudgmentQuestion(Question):
     def __init__(self, statement: str, correct_answer: str):
@@ -44,6 +47,12 @@ class JudgmentQuestion(Question):
         else:
             return False
 
+    def answer(self):
+        if self.correct_answer == "n":
+            return "False"
+        else:
+            return "True"
+
 
 class ShortAnswerQuestion(Question):
     def __init__(self, statement: str, standard_answer: str):
@@ -58,3 +67,6 @@ class ShortAnswerQuestion(Question):
             return True
         else:
             return False
+
+    def answer(self):
+        return self.correct_answer
