@@ -1,6 +1,6 @@
 # AutoTest_UI
 
-> a multi-user UI(python) supports user quizing (Final work for BUAA-Pyhton-2021)   
+> a multi-user UI(python) supports user quizing    
 >
 > Final work for BUAA-Pyhton-2021
 
