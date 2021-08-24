@@ -8,7 +8,7 @@
 
 ## Basic Design
 
-<img src="pic.png" alt="pic" style="zoom:50%;" />
+<img src="pic.png" alt="pic" style="zoom:20%;" />
 
 
 
